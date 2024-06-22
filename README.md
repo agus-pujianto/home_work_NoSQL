@@ -83,6 +83,8 @@ db.books.find({
     borrowed: true, 
     returned: false 
 }).pretty()
+
+
 Langkah 3: Jalankan query untuk tugas 2:
 
 sh
@@ -91,6 +93,8 @@ db.books.find({
     publishedYear: { $lt: 1980 }, 
     copiesAvailable: { $gt: 5 } 
 }).pretty()
+
+
 Langkah 4: Jalankan query untuk tugas 3:
 
 sh
@@ -110,6 +114,7 @@ db.books.aggregate([
         } 
     }
 ])
+
 
 Langkah 6: Jalankan query untuk tugas 5:
 
